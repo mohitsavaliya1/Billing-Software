@@ -1,0 +1,11 @@
+# Billing-Software
+Java Application, Database Management System, Software Engineering
+Project Work:-						201401137 - Mohit Savaliya
+201401136 - Dhruv Koshiyar								
+	
+	We have made a project “Billing system” in group of two students for the company as per its requirements. First of all we have analyze the products and all basic things like tax system, market value etc. We have used java application tool of netbeans to create the basic software and microsoft access database to store and access the database for the system.
+First of all we made SRS. Then for the system design we have made ER(entity-relational ) model with entity like Customer, Item, Bill system etc. Then we made context level zero, one and two diagram. We have made level one and two diagrams due to divide the system to subsystems for better understanding. We also made data dictionary for all the entities and sub-entities.
+Then we made form designs like Login form, Add customer, Add item, Edit customer, Edit item, Product detail, Edit product detail, Customer detail, Bill(Invoice), Search item, Search customer, Credit and debit note, Change username and password, Add note, Search invoice, Reminder, Calculator,  About system, help, Stock calculator, Statement for each customer, Check credit, Check debit, Daily Sold Product Information, Due Date Report master, Report master, GST, Print Customer details, Print item details, Print Check details, Availability of item, Weekly/Monthly/Annually report etc.
+We connect this designed system to Microsoft Access Database to Access the data for all the entities. To made our search easy and less time complexity we have used more efficient data structure called TRIE. So, we can search Customer by name and code, Item by name and code, Reports by date more efficiently by each character. For the security purpose we have used hashtable data structure which contains minimum of one small, one big alphabet, one number, one special character. 
+We also have implemented an automatic backup option which automatically create a duplicate microsoft access database file and save it to the different allocated location. After making tax/retail invoice, we saved it in a pdf form by importing “import com.itextpdf.text.*” and using its applications.  
+Finally we have done this project as per expectations. 
